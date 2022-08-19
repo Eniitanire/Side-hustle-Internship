@@ -1,0 +1,111 @@
+@font-face{
+    src: url(fonts/Norse-Bold.otf);
+    font-family: Norse;
+}
+
+.section1{  
+    background: url("Img/bg.jpg");
+    width: 700px;
+    height: 790px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imglogo{
+    width: 70px;
+}
+
+.container{
+    display: flex;
+}
+
+
+.section2{
+    margin-left:35px;
+    margin-top: 60px;
+}
+
+.contents{
+    display: flex;
+    margin-top: 110px;
+    width: 700px;
+    height: 130px;
+}
+
+.firstname{
+    display: flex;
+}
+
+input:focus{
+    border-color: blue;
+    outline: 0;
+    box-shadow: 0;
+}
+
+input{
+    border-color: #E5E7EB;
+}
+label{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+button{
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #3f7013;
+    border-color: transparent;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+@media (max-width: 1000px){
+    .section1{  
+    background: url("Img/bg.jpg");
+    width: 450px;
+    height: 790px;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+   .imglogo{
+    width: 60px;
+    margin-left: -80px;
+ }
+
+ .imagename{
+      margin-left: 55px;
+ }
+
+ .container{
+    display: flex;
+ }
+
+ .section2{
+    margin-left:25px;
+    margin-top: 40px;
+ }
+
+ input:focus{
+    border-color: blue;
+    outline: 0;
+    box-shadow: 0;
+ }
+
+ input{
+     width: 150px;
+ }
+ label{
+     font-size: 13px;
+ }
+
+ .contents{
+     width: 450px;
+ }
+
+ .imagename{
+     margin-right: 130px;
+ }
+}
